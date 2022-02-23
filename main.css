@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     transition: background-color 0.3s linear;
-    transition: all 0.3s linear;
+   
 }
 
 :root{
@@ -33,7 +33,7 @@ body{
 .header .header-main .header-right{
     display: flex;
     align-items: center;
-    
+    margin-left: 2%;
 }
 
 .header .header-main .header-right .menu{
@@ -54,29 +54,29 @@ body{
 }
 
 .header .header-main .header-right .menu li a:hover{
-    color: var(--blue);
+    color: var(--cyan);
 }
 
 .header .header-main .header-right .menu .sing-up{
-    border: 2px solid var(--blue);
-    padding: 0.7rem 1rem;
+    border: 2px solid var(--cyan);
+    padding: 0.6rem 0.7rem;
     border-radius: 0.2rem;
     cursor: pointer;
-    
 }
 
 .header .header-main  .menu .sing-up a,
 .header .header-main  .menu .login a{
-    color: var(--blue);
+    color: var(--cyan) !important;
 }
 
 .header .header-main  .menu .sing-up:hover{
     background-color: var(--cyan);
     border-radius: 0;
+    
 }
 
 .header .header-main  .menu .sing-up:hover a{
-    color: #fff;
+    color: #fff !important;
 }
 
 .header .header-main  .fb-icon{
@@ -195,4 +195,76 @@ body{
     
 
 
+}
+
+.slide-image .container .image-title img{
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+/*.slide-image .container .WrapContent{
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-200%) translateX(20%);
+    background-color: rgba(36,41,62,.8);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    color: #fff;
+}*/
+
+.slide-image .container .wrapper{
+    position: absolute;
+    min-width: 900px;
+    width: 955px;
+    height: 701px;
+    top: 35%;
+    left: 15%;
+}
+
+.slide-image .container .wrapper .WrapContent{
+    z-index: 1;
+    background-color: rgba(36,41,62,.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+    color: #fff;
+    min-height: 0px;
+    min-width: 0;
+    max-width: 900px;
+    max-width: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px,0px);
+   
+}
+
+.slide-image .container .wrapper .WrapContent .h4{
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.slide-image .container .wrapper a{
+    color: #fff;
+    font-size: 16px !important;
+    border: none;
+    background: #61d5df !important;
+    display: block;
+    margin: 0 auto;
+    max-width: 180px;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
 }
