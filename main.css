@@ -203,6 +203,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .slide-image .container .image-title img{
