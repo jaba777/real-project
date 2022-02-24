@@ -206,6 +206,11 @@ body{
     width: 100%;
 }
 
+.slide-image .container{
+    width: 100%;
+
+}
+
 .slide-image .container .image-title img{
   width: 100%;
   height: 100vh;
@@ -339,6 +344,7 @@ body{
     margin: 5rem auto;
     color: #49547d;
     letter-spacing: 1px;
+  
 }
 
 .business-work>h1{
@@ -393,4 +399,270 @@ body{
 
 .business-work .business-container .porto-sicon-box .photo-container .business-text-image p{
     font-size: 14px;
+}
+
+.Start a{
+    text-align: center;
+    color: #fff;
+    font-size: 16px !important;
+    border: none;
+    background: #61d5df !important;
+    display: block;
+    margin: 0 auto;
+    max-width: 180px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.benefits{
+    margin-top: 10rem;
+}
+
+.benefits h1{
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.benefits p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.benefits h1,
+.benefits p{
+    text-align: center;
+    color: #49547d;
+}
+
+.benefits .benefit-container{
+    margin-top: 7rem;
+}
+
+.benefits .benefit-container .benefit-boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 12px);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 2rem 38rem;
+    max-width: 55rem;
+    justify-content: center;
+}
+
+.benefits .benefit-container .benefit-boxes .box-benefit{
+    width: 34rem;
+    display: flex;
+    height: 10rem;
+    margin: 5px auto;
+    
+}
+
+.benefits .benefit-container .benefit-boxes .box-benefit .benefit-text{
+    margin-left: 15px;
+}
+
+.benefits .benefit-container .benefit-boxes .box-benefit .benefit-text h4{
+    font-weight: 800;
+    color: #49547d;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.benefits .benefit-container .benefit-boxes .box-benefit .benefit-text p{
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.benefits .benefit-container .benefit-boxes .box-benefit .benefit-text p span{
+    font-weight: 800;
+}
+
+.video{
+    margin-top: 10rem;
+    border-top: 1px solid rgba(97,213,223,.3)
+}
+
+.video h2{
+    text-align: center;
+    color: #49547d;
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.video .video-container{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 1015px){
+    .video .video-container iframe{
+        width: 800px;
+        height: 600px;
+    }
+}
+
+@media(max-width: 800px){
+    .video .video-container iframe{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+
+.dropship{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.dropship h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #49547d;
+    font-weight: 800;
+}
+
+.dropship .product-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.dropship .product-icons .product-icon{
+    width: 120px;
+    text-align: center;
+    padding: 0.5rem 1rem;
+   cursor: pointer;
+   margin: 1.7rem;
+}
+
+.dropship .product-icons .product-icon:hover{
+    border-bottom: 3px solid #49547d
+}
+
+.dropship .product-icons .product-icon p{
+    margin-top: 5px;
+    color: #49547d;
+}
+
+.dropship .product-icons .selected{
+    border-bottom: 3px solid #49547d;
+}
+
+.dropship .product-title{
+    display: flex;
+    justify-content: center;
+    height: 14rem;
+}
+
+.dropship .product-title #container{
+    position: relative;
+    width: 500px;
+    overflow: hidden;
+    margin: 0.3rem;
+}
+
+.dropship .product-title #container .title-image{
+    width: 500px;
+    cursor: pointer;
+    
+}
+
+
+.dropship .product-title #container .title-image img{
+    width: 100%;
+    
+}
+
+.dropship .product-title #container button{
+    position: absolute;
+    top: 40%;
+    font-size: 1.7rem;
+    border: none;
+    cursor: pointer;
+    color: rgba(110, 110, 112,0.8);
+    font-weight: 800;
+    visibility: hidden;
+}
+
+.dropship .product-title #container button:hover{
+    color: rgb(110, 110, 112);
+}
+
+.dropship .product-title #container .left{
+    transition: left 0.7s linear;
+    left: -5%;
+}
+
+.dropship .product-title #container .right{
+    transition: right 0.7s linear;
+    right: -5%;
+}
+
+.dropship .product-title #container:hover .left{
+    left: 5%;
+}
+
+.dropship .product-title #container:hover .right{
+    right: 5%;
+}
+
+
+.dropship .product-title #container:hover button{
+    visibility: visible;
+}
+
+.dropship .product-title #box-container{
+    width: 500px;
+    margin: 0.8rem;
+}
+
+.dropship .product-title #box-container h3{
+  color: #49547d;
+  font-weight: 800;
+}
+
+.dropship .product-title #box-container p{
+    margin-top: 0.5rem;
+    color: #49547d;
+}
+
+ #porto-btn{
+    display: flex;
+    justify-content: center;
+}
+
+ #porto-btn a{
+    color: #fff;
+    background-color: #61d5df;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.intergations{
+    margin-top: 4rem;
+}
+
+.intergations h1{
+    text-align: center;
+    color: #49547d;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.intergations .integration-boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.intergations .integration-boxes img{
+    transition: opacity 0.4s linear;
+    margin: 4rem;
+    opacity: 0.5;
+}
+
+.intergations .integration-boxes img:hover{
+    opacity: 1;
 }
