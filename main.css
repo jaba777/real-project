@@ -19,7 +19,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    right: 0; left: 0;
+    
     z-index: 2;
 
 }
@@ -313,6 +313,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 5rem;
+    flex-wrap: wrap;
 }
 
 .box-container .box{
@@ -327,6 +328,7 @@ body{
     align-items: center;
     text-align: center;
     padding: 1.5rem 1.5rem;
+    
 }
 
 .box-container .box .container-of-box .image-text h2{
@@ -369,6 +371,7 @@ body{
     margin-top: 4rem;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -441,12 +444,9 @@ body{
 }
 
 .benefits .benefit-container .benefit-boxes{
-    display: grid;
-    grid-template-columns: repeat(2, 12px);
-    grid-template-rows: repeat(2, auto);
-    grid-gap: 2rem 38rem;
-    max-width: 55rem;
-    justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
 .benefits .benefit-container .benefit-boxes .box-benefit{
@@ -526,6 +526,7 @@ body{
 .dropship .product-icons{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .dropship .product-icons .product-icon{
@@ -553,6 +554,7 @@ body{
     display: flex;
     justify-content: center;
     height: 14rem;
+    flex-wrap: wrap;
 }
 
 .dropship .product-title #container{
@@ -655,6 +657,7 @@ body{
 .intergations .integration-boxes{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .intergations .integration-boxes img{
@@ -673,6 +676,7 @@ body{
 
 .Vc-row .Vc_row-container{
     padding: 5rem 8rem;
+    height: 100%;
 }
 
 .Vc-row .Vc_row-container .Vc-row_titles{
