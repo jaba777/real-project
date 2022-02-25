@@ -210,3 +210,28 @@ setInterval(() => {
   buttonRight();
 }, 4000);
 
+
+
+
+const tapTitle = document.querySelectorAll('.tap-title');
+
+let VcRowTxtwww1=document.querySelector('.Vc-row_Text1');
+let VcRowTxttt2=document.querySelector('.Vc-row_Text2');
+let VcRowTxtxx3=document.querySelector('.Vc-row_Text3');
+let VcRowTxts4=document.querySelector('.Vc-row_Text4');
+
+let VcArray=[VcRowTxtwww1,VcRowTxttt2,VcRowTxtxx3,VcRowTxts4];
+
+let numberResult=0;
+
+
+tapTitle.forEach(function(Title,titleInd){
+  Title.addEventListener('click',function(){
+    numberResult=titleInd;
+    document.querySelector('.change-style').classList.remove('change-style');
+    Title.classList.add('change-style');
+    document.querySelector('.Vc-row_Text1').classList.remove('Vc-row_Text1');
+    VcArray[numberResult].classList.add('Vc-row_Text1');
+
+  })
+})
