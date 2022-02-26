@@ -454,8 +454,8 @@ body{
 .benefits .benefit-container .benefit-boxes .box-benefit{
     width: 34rem;
     display: flex;
-    height: 10rem;
-    margin: 5px auto;
+    
+    margin: 1.2rem auto;
     
 }
 
@@ -579,7 +579,6 @@ body{
 
 
 
-
 .dropship .product-title #container button{
     position: absolute;
     top: 40%;
@@ -669,7 +668,7 @@ body{
 
 .intergations .integration-boxes img{
     transition: opacity 0.4s linear;
-    margin: 4rem;
+    margin: 2rem 4rem;
     opacity: 0.5;
 }
 
@@ -683,7 +682,6 @@ body{
 
 .Vc-row .Vc_row-container{
     padding: 5rem 8rem;
-    height: 100%;
 }
 
 .Vc-row .Vc_row-container .Vc-row_titles{
@@ -765,6 +763,9 @@ body{
 
 .footer{
     background-color: #212529;
+    width: 100%;
+    bottom: 0;
+    left: 0; right: 0;
 }
 
 .footer .footer-container{
@@ -778,15 +779,11 @@ body{
 
 .footer .footer-container .footer-image{
     line-height: 1.6;
+    width: 18rem;
 }
 
 .footer .footer-container .footer-image img{
     width: 6rem;
-}
-
-.footer .footer-container .footer-box{
-    width: 18rem;
-   
 }
 
 .footer .footer-container .footer-list{
@@ -999,7 +996,9 @@ body{
     
     
 
-  
+  .Vc-row .Vc_row-container{
+    padding: 0;
+}
     
 
     .dropship .product-title{
@@ -1082,20 +1081,14 @@ body{
     
     .benefits .benefit-container .benefit-boxes .box-benefit{
         display: flex;
-        flex-wrap: wrap;
-        height: 10rem;
+        
         margin-top: auto;
         margin-top: 4%;
         
     }
 
-    .benefits .benefit-container .benefit-boxes .box-benefit .benefit-image{
-        width: 100px;
-    }
+    
 
-    .benefits .benefit-container .benefit-boxes .box-benefit .benefit-image img{
-        width: 100%;
-    }
     
     .benefits .benefit-container .benefit-boxes .box-benefit .benefit-text{
         margin-left: 15px;
@@ -1117,6 +1110,42 @@ body{
         font-weight: 800;
     }
 
+    .footer .footer-container{
+        padding: 0;
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid rgba(255,255,255,.05);
+        flex-wrap: wrap;
+    }
+    
+    .footer .footer-container .footer-image{
+        line-height: 1.6;
+        width: 12rem;
+    }
+
+  
 
 
+}
+
+@media (max-width: 267px){
+
+
+    /*.video .video-container iframe{
+        width: 100px;
+       
+    }*/
+
+
+
+    .intergations .integration-boxes img{
+        width: 100px;
+        
+    }
+
+    .footer .footer-container .footer-image{
+        line-height: 1.6;
+        width: 2rem;
+    }
 }
