@@ -44,18 +44,17 @@ body{
     align-items: center;
 }
 
-.header .header-main .header-right .menu li{
-    margin-left: 0.9rem;
-}
 
-.header .header-main .header-right .menu li a{
+.header .header-main .header-right .menu li{
     color: white;
     font-weight: 900;
     text-decoration: none;
     font-size: 0.8rem;
+    margin-left: 0.9rem;
+    cursor: pointer;
 }
 
-.header .header-main .header-right .menu li a:hover{
+.header .header-main .header-right .menu li:hover{
     color: var(--cyan);
 }
 
@@ -83,11 +82,12 @@ body{
 
 .header .header-main  .fb-icon{
     margin-left: 2rem;
-    color: #fff;
-    padding: 0.5rem 0.6rem;
+    padding: 0.5rem 0.7rem;
     font-size: 0.8rem;
     border-radius: 30px;
-    
+    border: none;
+    cursor: pointer;
+    color: #fff;
 }
 
 .header .header-main  .fb-icon:hover{
@@ -220,8 +220,11 @@ body{
 .slide-image  .wrapper{
     position: absolute;
     max-width: 1125px;
-    width: 60%;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -237,13 +240,10 @@ body{
     padding: 40px 50px;
     color: #fff;
     min-height: 0px;
-    min-width: 0;
-    max-width: 900px;
     max-width: none;
-    
     opacity: 1;
     transform: translate(0px,0px);
-   
+   width: 100%;
 }
 
 .slide-image  .wrapper .WrapContent .h4{
@@ -254,7 +254,7 @@ body{
     font-family: sans-serif;
 }
 
-.slide-image  .wrapper a{
+.slide-image  .wrapper span{
     color: #fff;
     font-size: 16px !important;
     border: none;
@@ -267,6 +267,7 @@ body{
     text-decoration: none;
     border-radius: 4px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 
@@ -404,7 +405,7 @@ body{
     font-size: 14px;
 }
 
-.Start a{
+.Start span{
     text-align: center;
     color: #fff;
     font-size: 16px !important;
@@ -417,6 +418,7 @@ body{
     text-decoration: none;
     border-radius: 4px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .benefits{
@@ -553,7 +555,6 @@ body{
 .dropship .product-title{
     display: flex;
     justify-content: center;
-    height: 14rem;
     flex-wrap: wrap;
 }
 
@@ -575,6 +576,8 @@ body{
     width: 100%;
     
 }
+
+
 
 .dropship .product-title #container button{
     position: absolute;
@@ -617,6 +620,7 @@ body{
 .dropship .product-title #box-container{
     width: 500px;
     margin: 0.8rem;
+    
 }
 
 .dropship .product-title #box-container h3{
@@ -629,18 +633,20 @@ body{
     color: #49547d;
 }
 
- #porto-btn{
+.dropship #porto-btn{
     display: flex;
     justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 
- #porto-btn a{
+ .dropship #porto-btn span{
     color: #fff;
     background-color: #61d5df;
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 4px;
-    margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 .intergations{
@@ -708,14 +714,14 @@ body{
 .Vc_row-container .Vc-row_Text{
     margin-top: 1rem;
     color: #fff;
-    line-height: 1.2;
+    line-height: 1.4;
     display: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Vc_row-container .Vc-row_Text1{
     display: block;
 }
-
 
 .Vc_row-container .Vc-row_Text h5{
     margin-bottom: 0.7rem;
@@ -726,9 +732,35 @@ body{
 
 .Vc_row-container .Vc-row_Text p{
     margin-top: 0.7rem;
-    font-size: 0.9rem;
+    font-size: 15px;
+    line-height: 1.4;
 }
 
+
+.Vc_row-container .Vc-row_Text2 h5{
+    margin-top: 3rem;
+}
+
+.Vc_row-container .Vc-row_Text2 p{
+    margin-top: 0.2rem;
+}
+
+.Vc_row-container .Vc-row_Text4 h6{
+    font-size: 14px;
+    margin-top: 0.6rem;
+    font-weight: 800;
+}
+
+.Vc_row-container .Vc-row_Text4 ul{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    list-style: circle;
+}
+
+.Vc_row-container .Vc-row_Text4 li{
+    font-size: 14px;
+    line-height: 1.5;
+}
 
 .footer{
     background-color: #212529;
@@ -740,6 +772,15 @@ body{
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid rgba(255,255,255,.05);
+    flex-wrap: wrap;
+}
+
+.footer .footer-container .footer-image{
+    line-height: 1.6;
+}
+
+.footer .footer-container .footer-image img{
+    width: 6rem;
 }
 
 .footer .footer-container .footer-box{
@@ -755,9 +796,15 @@ body{
     list-style: none;
 }
 
+.footer .footer-container .footer-list ul li{
+    cursor: pointer;
+    margin-top: 7px;
+}
+
 .footer .footer-container .footer-list ul .bold-list{
     font-weight: 800;
     font-size: 1rem;
+    cursor: default;
 }
 
 .footer .footer-center{
@@ -766,3 +813,25 @@ body{
     padding: 1rem 2rem;
 }
 
+
+
+@media (max-width:1052px){
+    .slide-image  .wrapper{
+        position: absolute;
+        max-width: 1000px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    
+    
+    
+
+    
+    
+   
+}

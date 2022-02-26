@@ -81,6 +81,7 @@ let boxText2=document.getElementById('box-text2');
 let boxText3=document.getElementById('box-text3');
 
 
+
 const leftBtn=document.querySelector('.left');
 const RightBtn=document.querySelector('.right');
 
@@ -101,6 +102,7 @@ let productImage=[
     id:1
   },
 ];
+
 
 let productTxt=[
   {
@@ -140,6 +142,7 @@ let productTxt=[
     p3: ""
   }
 ];
+
 
 function imagesTlt(url){
   let count = document.createElement('img');
