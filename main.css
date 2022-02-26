@@ -579,6 +579,7 @@ body{
 
 
 
+
 .dropship .product-title #container button{
     position: absolute;
     top: 40%;
@@ -843,4 +844,279 @@ body{
     .footer .footer-container .footer-box{
         margin-top: 15px;
     }
+}
+
+@media (max-width: 630px){
+    .slide-image  .wrapper{
+        position: absolute;
+        max-width: 1125px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .slide-image  .wrapper .WrapContent{
+        z-index: 1;
+        background-color: rgba(36,41,62,.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 30px;
+        color: #fff;
+        min-height: 0px;
+        max-width: none;
+        opacity: 1;
+        transform: translate(0px,0px);
+        width: 100%;
+
+    }
+
+    .slide-image  .wrapper .WrapContent img{
+        width: 100px;
+    }
+    
+    .slide-image  .wrapper .WrapContent .h4{
+        font-size: 1.7rem;
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: 900;
+        font-family: sans-serif;
+    }
+    
+     
+}
+
+@media (max-width: 410px){
+
+
+    .header .header-main  .fb-icon{
+        margin-right: 2rem;
+        padding: 0.5rem 0.7rem;
+        font-size: 0.8rem;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+    }
+
+
+
+    .slide-image  .wrapper{
+        position: absolute;
+        max-width: 1125px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .slide-image  .wrapper .WrapContent{
+        padding: 10px 20px;
+      
+
+    }
+
+    .slide-image  .wrapper .WrapContent img{
+        width: 100px;
+    }
+    
+    .slide-image  .wrapper .WrapContent .h4{
+        font-size: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: 900;
+        font-family: sans-serif;
+    }
+
+
+
+    .section .container1 h2{
+        font-size: 25px;
+        color: #49547d;
+        margin-bottom: 5px;
+        font-weight: 800;
+    }
+    
+    .section .container1 h3 span {
+        line-height: 16px;
+        font-weight: 800;
+        color: #49547d;
+    }
+    
+    .section .text-wrapper{
+        margin-top: 15px;
+    }
+    
+    .section .text-wrapper h2{
+    
+        font-size: 16px;
+        line-height: 40px;
+        color: #49547d;
+        text-align: center;
+        font-weight: 400;
+    }
+    
+    .section .text-wrapper h2 span{
+        font-weight: 800;
+    }
+
+
+
+
+    .box-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        flex-wrap: wrap;
+    }
+    
+    .box-container .box{
+        width: 250px;
+        border: 3px dotted var(--cyan);
+        margin: 15px;
+    }
+    
+    .box-container .box .container-of-box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 0.8rem;
+        
+    }
+    
+    .box-container .box .container-of-box .image-text h2{
+        color: #49547d;
+        font-weight: 900;
+        font-size: 1.2rem;
+    }
+    
+    
+
+  
+    
+
+    .dropship .product-title{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .dropship .product-title #container{
+        position: relative;
+        width: 300px;
+        overflow: hidden;
+        margin: 0.3rem;
+        
+    }
+    
+    .dropship .product-title #container .title-image{
+        width: 100%;
+        cursor: pointer;
+        
+    }
+    
+    
+    .dropship .product-title #container .title-image img{
+        width: 100%;
+        
+    }
+    
+    
+    
+    .dropship .product-title #container button{
+        position: absolute;
+        top: 40%;
+        font-size: 1.7rem;
+        border: none;
+        cursor: pointer;
+        color: rgba(110, 110, 112,0.8);
+        font-weight: 800;
+        visibility: hidden;
+    }
+    
+    .dropship .product-title #container button:hover{
+        color: rgb(110, 110, 112);
+    }
+    
+    .dropship .product-title #container .left{
+        transition: left 0.7s linear;
+        left: -5%;
+    }
+    
+    .dropship .product-title #container .right{
+        transition: right 0.7s linear;
+        right: -5%;
+    }
+    
+    .dropship .product-title #container:hover .left{
+        left: 5%;
+    }
+    
+    .dropship .product-title #container:hover .right{
+        right: 5%;
+    }
+    
+    .video .video-container iframe{
+       width: 250px;
+       height: 150px;
+    }
+
+
+
+    .benefits .benefit-container{
+        margin-top: 7rem;
+    }
+    
+    .benefits .benefit-container .benefit-boxes{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: left;
+    }
+    
+    .benefits .benefit-container .benefit-boxes .box-benefit{
+        display: flex;
+        flex-wrap: wrap;
+        height: 10rem;
+        margin-top: auto;
+        margin-top: 4%;
+        
+    }
+
+    .benefits .benefit-container .benefit-boxes .box-benefit .benefit-image{
+        width: 100px;
+    }
+
+    .benefits .benefit-container .benefit-boxes .box-benefit .benefit-image img{
+        width: 100%;
+    }
+    
+    .benefits .benefit-container .benefit-boxes .box-benefit .benefit-text{
+        margin-left: 15px;
+    }
+    
+    .benefits .benefit-container .benefit-boxes .box-benefit .benefit-text h4{
+        font-weight: 800;
+        color: #49547d;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .benefits .benefit-container .benefit-boxes .box-benefit .benefit-text p{
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    
+    .benefits .benefit-container .benefit-boxes .box-benefit .benefit-text p span{
+        font-weight: 800;
+    }
+
+
+
 }
