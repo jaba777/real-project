@@ -631,6 +631,9 @@ body{
 .dropship .product-title #box-container p{
     margin-top: 0.5rem;
     color: #49547d;
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.5;
 }
 
 .dropship #porto-btn{

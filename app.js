@@ -79,6 +79,9 @@ let boxTitle=document.getElementById('box-title');
 let boxText1=document.getElementById('box-text1');
 let boxText2=document.getElementById('box-text2');
 let boxText3=document.getElementById('box-text3');
+let spanText=document.querySelector('.span-text');
+
+
 
 
 
@@ -107,20 +110,20 @@ let productImage=[
 let productTxt=[
   {
     h1: "Advanced UI",
-    p1: "In the 365DROPSHIP platform you’ll find the most user-friendly UI enabling easy product search, inventory management, and order placement.",
+    p1: "In the 365<b>DROPSHIP</b> platform you’ll find the most user-friendly UI enabling easy product search, inventory management, and order placement.",
     p2: "Our User Interface is simple and sophisticated at the same time. Using a modern product search system, you can find anything you need in seconds.",
     p3: "Here you can easily manage your inventory and place the desired orders. The interface is adjusted to your needs and designed so that everything is straightforward from your first click. Our advanced user interface saves your time and allows you to easily surf through the dropship platform features."
   },
   {
     h1: "Activity Dashboard",
-    p1: "Track all of your activity in one place with the 365DROPSHIP dashboard, learn from your activity, and optimize it accordingly.",
+    p1: "Track all of your activity in one place with the 365<b>DROPSHIP</b> dashboard, learn from your activity, and optimize it accordingly.",
     p2: "You can control every step of your dropship business and manage all the details, especially, if you are relying on the dropshipping platform data.",
     p3: "Using these features, you’ll be able to find new relevant inventory and decide your next step wisely."
   },
   {
     h1: "Dropship Products sync functionality",
-    p1: "Easily sync 365DROPSHIP products into your online shop. Manage your process manually or automatically, exporting all product details.",
-    p2: "By synchronizing your 365DROPSHIP account to your online shop, you save time and effort. All dropship product details will be automatically transported and you won’t have to worry about it.",
+    p1: "Easily sync 365<b>DROPSHIP</b> products into your online shop. Manage your process manually or automatically, exporting all product details.",
+    p2: "By synchronizing your 365<b>DROPSHIP</b> account to your online shop, you save time and effort. All dropship product details will be automatically transported and you won’t have to worry about it.",
     p3: "If you want to change some details or present your product differently, you can choose to enter all the information manually, so you decide what should be featured on the page of each product."
   },
   {
